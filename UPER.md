@@ -8,10 +8,10 @@
 <h2>1. Understanding the Problem</h2>
 * I need to create an e-commerce website using HTML, CSS, and React.
 * There will be no back-end in this project, so I will need to incorporate the products for sale on this site using a json file.
-* I need to identify what this site will be selling.
+* I need to identify what this site will be selling.(Records)
 * I need to create a good flow and style that allows for easy transition from route to route.
 * Main problems to solve:
-    - Need to store products for the e-commerce site withing the application
+    - Need to store products for the e-commerce site within the application
     - Need to display a store front
     - Need to display products page
     - Need to display product info
@@ -20,11 +20,11 @@
     - Need to have functionality to check out from shopping cart
     - Need to refresh an empty shopping cart once a user has checked out
 * The unknown variables are:
-    - the products I will be displaying
-    - where I am storing the products to display on the site
+    - the products I will be displaying(records)
+    - where I am storing the products to display on the site(json file)
     - how to integrate a method to checkout
 * I believe I will be able to store the products in a json file in my application, and then display product information from that location.
-* I will have to look up documentation and watch some videos about integrating a checkout method like paypal, venmo, or stripe. Ultimately I will be updating the object in the json file as well when a checkout occurs - so I know there will be some logic coming from a functional component when I need to integrate the checkout functionality.
+* I will have to look up documentation and watch some videos about integrating a checkout method like paypal, venmo, or stripe. Ultimately I will be updating the object in the json file as well when a checkout occurs - so I know there will be some logic coming from a functional component when I need to integrate the checkout functionality.(Anna posted reference videos in the resource channel on Slack from DEV and YouTube about integrating PayPal)
 <h2>
     2. Planning the Solution
 </h2>
