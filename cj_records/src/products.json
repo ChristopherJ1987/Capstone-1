@@ -8,8 +8,8 @@
         "label": "Atlantic Recording Corporation",
         "genre": "Soul",
         "quantity": 1,
-        "front_cover_image": "images/Aretha_Front.jpg",
-        "back-cover-image": "images/Aretha_Back.jpg"
+        "front_cover_image": "product_images/Aretha_Front.jpg",
+        "back_cover_image": "product_images/Aretha_Back.jpg"
     },
     {
         "id": 2,
@@ -20,8 +20,8 @@
         "label": "Warner Bros. Records Inc.",
         "genre": "R&B",
         "quantity": 1,
-        "front-cover-image": "images/Chaka_Front",
-        "back-cover-image": "images/Chaka_Back"
+        "front_cover_image": "product_images/Chaka_Front.jpg",
+        "back_cover_image": "product_images/Chaka_Back.jpg"
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "label": "Casablanca Record and FilmWorks Inc.",
         "genre": "R&B",
         "quantity": 1,
-        "front-cover-image": "images/Donna_Front",
-        "back-cover-image": "images/Donna-Back"
+        "front_cover_image": "product_images/Donna_Front.jpg",
+        "back_cover_image": "product_images/Donna_Back.jpg"
     },
     {
         "id": 4,
@@ -44,8 +44,8 @@
         "label": "Geffen Records",
         "genre": "Musical",
         "quantity": 1,
-        "front-cover-image": "images/Dreamgirls_Front",
-        "back-cover-image": "images/Dreamgirls_Back"
+        "front_cover_image": "product_images/Dreamgirls_Front.jpg",
+        "back_cover_image": "product_images/Dreamgirls_Back.jpg"
     },
     {
         "id": 5,
@@ -56,8 +56,8 @@
         "label": "Chess MCA Records",
         "genre": "Soul",
         "quantity": 1,
-        "front-cover-image": "images/Etta_Front",
-        "back-cover-image": "images/Etta_Back"
+        "front_cover_image": "product_images/Etta_Front.jpg",
+        "back_cover_image": "product_images/Etta_Back.jpg"
     },
     {
         "id": 6,
@@ -68,8 +68,8 @@
         "label": "Capitol Records",
         "genre": "R&B",
         "quantity": 1,
-        "front-cover-image": "images/Tina_Front",
-        "back-cover-image": "images/Tina_Back"
+        "front_cover_image": "product_images/Tina_Front.jpg",
+        "back_cover_image": "product_images/Tina_Back.jpg"
     },
     {
         "id": 7,
@@ -80,8 +80,8 @@
         "label": "Arista Records, Inc.",
         "genre": "R&B",
         "quantity": 1,
-        "front-cover-image": "images/Whitney_Front",
-        "back-cover-image": "images/Whitney_Back"
+        "front_cover_image": "product_images/Whitney_Front.jpg",
+        "back_cover_image": "product_images/Whitney_Back.jpg"
     },
     {
         "id": 8,
@@ -92,8 +92,8 @@
         "label": "RCA Records",
         "genre": "Country",
         "quantity": 1,
-        "front-cover-image": "images/Dolly_Front",
-        "back-cover-image": "images/Dolly_Back"
+        "front_cover_image": "product_images/Dolly_Front.jpg",
+        "back_cover_image": "product_images/Dolly_Back.jpg"
     },
     {
         "id": 9,
@@ -104,8 +104,8 @@
         "label": "EMI America Records",
         "genre": "Rock",
         "quantity": 1,
-        "front-cover-image": "images/David_Front",
-        "back-cover-image": "images/David_Back"
+        "front_cover_image": "product_images/David_Front.jpg",
+        "back_cover_image": "product_images/David_Back.jpg"
     },
     {
         "id": 10,
@@ -116,8 +116,8 @@
         "label": "Atlantic Recording Corporation",
         "genre": "Rock",
         "quantity": 1,
-        "front-cover-image": "images/Foreigner_Front",
-        "back-cover-image": "images/Foreigner_Back"
+        "front_cover_image": "product_images/Foreigner_Front.jpg",
+        "back_cover_image": "product_images/Foreigner_Back.jpg"
     },
     {
         "id": 11,
@@ -128,8 +128,8 @@
         "label": "RCA Records",
         "genre": "Folk",
         "quantity": 1,
-        "front-cover-image": "images/John_Front",
-        "back-cover-image": "images/John_Back"
+        "front_cover_image": "product_images/John_Front.jpg",
+        "back_cover_image": "product_images/John_Back.jpg"
     },
     {
         "id": 12,
@@ -140,8 +140,8 @@
         "label": "Chrysalis Records Inc.",
         "genre": "Rock",
         "quantity": 1,
-        "front-cover-image": "images/Pat_Front",
-        "back-cover-image": "images/Pat_Back"
+        "front_cover_image": "product_images/Pat_Front.jpg",
+        "back_cover_image": "product_images/Pat_Back.jpg"
     },
     {
         "id": 13,
@@ -152,7 +152,7 @@
         "label": "A&M Records, Inc.",
         "genre": "Rock",
         "quantity": 1,
-        "front-cover-image": "images/STYX_Front",
-        "back-cover-image": "images/STYX_Back"
+        "front_cover_image": "product_images/STYX_Front.jpg",
+        "back_cover_image": "product_images/STYX_Back.jpg"
     }
 ]
