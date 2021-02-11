@@ -4,22 +4,30 @@
 .nav-bar {
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(130, 125, 140);
+  background-color: rgb(83, 76, 98);
 }
 
 .logo {
-  height: 17vh;
+  height: 9.5rem;
   margin-top: 4rem;
   margin-left: 4rem;
   border-radius: 50%;
-  box-shadow: 0px 0px 27px 33px rgb(130, 125, 140);
+  box-shadow: 0px 0px 27px 33px rgb(43, 28, 69);
+}
+
+ul.nav-links {
+  margin-left: 2rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nav-links li {
+  padding: 1rem;
 }
 
 .nav-links a {
-  color: silver;
-  margin-left: 2rem;
-  margin-right: 4rem;
-  margin-top: 1.5rem;
+  color: white;
   font-size: x-large;
   font-weight: bolder;
   list-style-type: none;
@@ -29,7 +37,7 @@
 
 .nav-links a:hover {
   text-decoration: underline;
-  text-shadow: 0px 0px 17px rgb(33, 9, 67);
+  text-shadow: 0px 0px 17px white;
 }
 /* Navigation Bar End */
 
@@ -40,5 +48,55 @@ h1 {
 
 img {
   height: 13rem;
+}
+
+.records {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.record {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 11.5%;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 13px 13px rgb(130, 125, 140);
+}
+
+.product_button {
+  padding: 4px;
+  border-radius: 10px 44px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(143, 136, 159);
+  border: 0.5px solid rgb(130, 125, 140);
+}
+
+.record_player_img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home_music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  padding-top: 1rem;
+}
+
+.record_store_day, .save_our_stages {
+  width: 44%;
+  margin: 1rem;
+  padding: 6rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
 }
 /**** **** **** **** Desktop Version End **** **** **** ****/

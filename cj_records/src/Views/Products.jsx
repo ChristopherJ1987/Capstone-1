@@ -27,20 +27,13 @@ function Products() {
     }, [])
 
     return (
-        <div>
-            <h1>Products Page</h1>
+        <div className="records">
             {myJson.map((record) => (
-                <div key={record.id}>
+                <div className="record" key={record.id}>
+                    <img src={record.front_cover_image} alt="front cover"/>
                     <p>{record.artist}</p>
                     <p>{record.album}</p>
-                    <p>{record.genre}</p>
-                    <p>${record.price}.00</p>
-                    <p>{record.label}</p>
-                    <br/>
-                    <img src={record.front_cover_image} alt="front cover"/>
-                    <br/>
-                    <img src={record.back_cover_image} alt="back cover"/>
-                    <hr/>
+                    <button className="product_button">See More</button>
                 </div>
             ))}
         </div>
