@@ -50,15 +50,20 @@ function Products() {
                     <p>{record.artist}</p>
                     <p>{record.album}</p>
                     <button className="product_button" onClick={() => handleShow(record)}>More Details</button>
-                    <br></br>
+                    <br />
                     <button className="product_button">Add to Cart</button>
                     <Modal className="modal" show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
-                            <Modal.Title>Album Info</Modal.Title>
+                            <Modal.Title className="modalTitle">Album Info</Modal.Title>
+                            <Modal.Body className="modalBody">
+                                <p>Artist: {item.artist}</p>
+                                <p>Album: {item.album}</p>
+                                <p>Label: {item.label}</p>
+                                <p>Genre: {item.genre}</p>
+                                <p>${item.price}.00</p>
+                            </Modal.Body>
                         </Modal.Header>
-                        <Modal.Body>{item.artist}</Modal.Body>
-                        <Modal.Footer>
-                        </Modal.Footer>
+                        <Modal.Footer />
                     </Modal>
                 </div>
             ))}
