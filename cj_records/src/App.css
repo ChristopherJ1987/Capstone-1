@@ -116,6 +116,24 @@ img {
   font-size: 24px;
   margin-bottom: 1rem;
 }
+
+.searchBar {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: rgb(143, 136, 159);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
 /* Products Page End */
 
 /* Footer Start */

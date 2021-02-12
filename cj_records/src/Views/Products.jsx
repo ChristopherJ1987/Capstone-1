@@ -6,6 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 function Products() {
 
     const myJson = Records;
+    const [searchTerm, setSearchTerm] = useState('');
     const [show, setShow] = useState(false);
     const [item, setItem] = useState({
         "id": 0,
@@ -43,8 +44,25 @@ function Products() {
     }, [])
 
     return (
+        <>
+        <input 
+            
+            className="searchBar" 
+            type="text" 
+            placeholder="Search Artists" 
+            onChange={event => {
+                setSearchTerm(event.target.value)
+            }} 
+        />
         <div className="records">
-            {myJson.map((record) => (
+            {myJson.filter((val) => {
+                if(searchTerm == "") {
+                    return val
+                }
+                else if(val.artist.toLowerCase().includes(searchTerm.toLowerCase())) {
+                    return val
+                }
+            }).map((record) => (
                 <div className="recordBox" key={record.id}>
                     <img src={record.front_cover_image} alt="front cover"/>
                     <p>{record.artist}</p>
@@ -68,6 +86,7 @@ function Products() {
                 </div>
             ))}
         </div>
+        </>
     )
 }
 
