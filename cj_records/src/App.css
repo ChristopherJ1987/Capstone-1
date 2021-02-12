@@ -4,7 +4,7 @@
 .nav-bar {
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(83, 76, 98);
+  background-color: rgb(58, 58, 58);
 }
 
 .logo {
@@ -12,7 +12,7 @@
   margin-top: 4rem;
   margin-left: 4rem;
   border-radius: 50%;
-  box-shadow: 0px 0px 27px 33px rgb(43, 28, 69);
+  box-shadow: 0px 0px 33px 27px rgba(198, 192, 205, 0.784);
 }
 
 ul.nav-links {
@@ -41,43 +41,7 @@ ul.nav-links {
 }
 /* Navigation Bar End */
 
-h1 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-}
-
-img {
-  height: 13rem;
-}
-
-.records {  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.record {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 11.5%;
-  padding: 2rem;
-  margin: 2rem;
-  text-align: center;
-  box-shadow: 0px 0px 13px 13px rgb(130, 125, 140);
-}
-
-.product_button {
-  padding: 4px;
-  border-radius: 10px 44px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  color: white;
-  background-color: rgb(143, 136, 159);
-  border: 0.5px solid rgb(130, 125, 140);
-}
-
+/* Home Page Start */
 .record_player_img {
   width: 100vw;
   height: 100vh;
@@ -99,4 +63,70 @@ img {
   font-family: 'Open Sans', sans-serif;
   color: #222;
 }
+/* Home Page End */
+
+/* Products Page Start */
+img {
+  height: 13rem;
+}
+
+.records {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.recordBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 11.5%;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 13px 13px rgb(130, 125, 140);
+}
+
+.product_button {
+  padding: 4px;
+  border-radius: 10px 44px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(143, 136, 159);
+  border: 0.5px solid rgb(130, 125, 140);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.overlayStyles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+/* Products Page End */
+
+/* Footer Start */
+.footer {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(58, 58, 58);
+  font-family: 'Open Sans', sans-serif;
+}
+/* Footer End */
 /**** **** **** **** Desktop Version End **** **** **** ****/

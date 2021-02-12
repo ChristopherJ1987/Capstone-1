@@ -4,6 +4,7 @@ import Nav from './Components/Nav';
 import Home from './Views/Home';
 import Products from './Views/Products';
 import ShoppingCart from './Views/ShoppingCart';
+import Footer from './Components/Footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={Products} />
         <Route exact path="/shoppingcart" component={ShoppingCart} />
+        <Footer />
       </div>
     </Router>
   );
