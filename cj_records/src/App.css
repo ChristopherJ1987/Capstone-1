@@ -117,6 +117,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.modalImg {
+  padding: 2rem;
+}
+
 .searchBar {
   width: 100%;
   padding: 1rem;

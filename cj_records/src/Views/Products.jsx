@@ -79,6 +79,8 @@ function Products() {
                                 <p>Label: {item.label}</p>
                                 <p>Genre: {item.genre}</p>
                                 <p>${item.price}.00</p>
+                                <img className="modalImg" src={item.front_cover_image}></img>
+                                <img className="modalImg" src={item.back_cover_image}></img>
                             </Modal.Body>
                         </Modal.Header>
                         <Modal.Footer />
