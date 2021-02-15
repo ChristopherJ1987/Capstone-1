@@ -4,9 +4,11 @@ import Records from '../products.json';
 import Modal from 'react-bootstrap/Modal';
 
 function Products() {
-
+    
     const myJson = Records;
+
     const [searchTerm, setSearchTerm] = useState('');
+
     const [show, setShow] = useState(false);
     const [item, setItem] = useState({
         "id": 0,
@@ -26,27 +28,24 @@ function Products() {
         setItem(item);
         setShow(true);
     };
-
-    const getData = () => {
-        fetch('products.json', {
-            headers: {
-                'Content-Type' : 'application/json',
-                'Accept' : 'application/json'
-            }
-        })
-        .then(function(response) {
-            return response.json();
-        })
+    
+    const [cart, setCart] = useState({cartItems: []});
+    const handleSubmit = (newItem) => {
+        const newCart = {...cart};
+        const inCart = newCart.cartItems.find(x => x.item.id == newItem.id);
+        if(inCart) {
+            inCart.count = inCart.count + 1;
+        }
+        else {
+            const cartItem = {count : 1, item : newItem};
+            newCart.cartItems.push(cartItem);
+        }
+        setCart(newCart);
     }
-
-    useEffect(() => {
-        getData()
-    }, [])
 
     return (
         <>
         <input 
-            
             className="searchBar" 
             type="text" 
             placeholder="Search Artists" 
@@ -69,7 +68,7 @@ function Products() {
                     <p>{record.album}</p>
                     <button className="product_button" onClick={() => handleShow(record)}>More Details</button>
                     <br />
-                    <button className="product_button">Add to Cart</button>
+                    <button className="product_button" onClick={() => handleSubmit(record)}>Add to Cart</button>
                     <Modal className="modal" show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
                             <Modal.Title className="modalTitle">Album Info</Modal.Title>
